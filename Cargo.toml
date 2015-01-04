@@ -1,0 +1,18 @@
+[package]
+
+name = "readline-sys"
+version = "0.0.1"
+authors = ["Nicholas Mazzuca <npmazzuca@gmail.com>"]
+build = "build.rs"
+
+description = "Declarations for `libreadline` or `libedit`"
+
+documentation = "https://github.com/GBGamer/readline-sys"
+homepage = "https://github.com/GBGamer/readline-sys"
+repository = "https://github.com/GBGamer/readline-sys"
+
+readme = "README.md"
+
+keywords = ["readline", "input"]
+
+license = "MIT"
