@@ -4,6 +4,7 @@
 //! Linux, libedit on Mac OS X)
 //!
 //! NOTE: to get a *const c_char from &str -> s.to_c_str_unchecked().as_ptr()
+#![feature(libc)]
 extern crate libc;
 use self::libc::c_char;
 
